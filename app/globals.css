@@ -1,4 +1,5 @@
-@import url("./../components/nav/styles.css"); /* NAV STYLES*/
+@import url("./../components/nav/styles.css"); /* NAV STYLES */
+@import url("./../components/main_article/styles.css"); /* HOMEPAGE - MAIN ARTICLE STYLES */
 
 * {
   box-sizing: border-box;
