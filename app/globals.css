@@ -1,3 +1,5 @@
+@import url("./../components/nav/styles.css"); /* NAV STYLES*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +13,7 @@ html {
 
 body {
   background-color: #fffdfa;
+  overflow-x: hidden !important;
 }
 
 /* ==========
@@ -33,6 +36,18 @@ img {
 
 ul {
   list-style-type: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0); /* Hides the element off-screen */
+  clip-path: inset(50%); /* Alternative for modern browsers */
+  overflow: hidden; /* Ensures content is not visible */
 }
 
 /* ==========
