@@ -1,5 +1,12 @@
+// Components
+import HomePageGrid from "@/components/layout/HomePageGrid";
+
 const HomePage = () => {
-  return <div>Home Page</div>;
+  return (
+    <>
+      <HomePageGrid />
+    </>
+  );
 };
 
 export default HomePage;
