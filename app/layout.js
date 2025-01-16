@@ -1,4 +1,12 @@
+// Styles
 import "./globals.css";
+
+// Fonts
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
+
+// Components
+import Nav from "@/components/nav/Nav";
 
 export const metadata = {
   title: "Wired Up",
@@ -9,7 +17,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>
+        <main>
+          <Nav />
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
