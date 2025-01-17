@@ -34,17 +34,13 @@
 }
 
 @media (min-width: 48rem) {
-  .main-article {
-    margin-bottom: 0;
-  }
-
   .main-article img {
     height: auto;
     margin-bottom: 1.875rem;
   }
 
-  .main-article h1 {
-    margin-bottom: 0;
+  .main-article__text {
+    max-width: 50%;
   }
 
   .main-article p {
@@ -54,5 +50,23 @@
   .btn__read-more:hover,
   .btn__read-more:focus {
     background-color: #00001a;
+  }
+}
+
+@media (min-width: 90rem) {
+  .main-article {
+    margin-bottom: 0;
+  }
+
+  .main-article__text {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 47.9452054795% 47.9452054795%;
+    gap: 4.1095890411%;
+    max-width: unset;
+  }
+
+  .main-article h1 {
+    margin-bottom: 0;
   }
 }
