@@ -1,0 +1,14 @@
+.homepage-grid {
+  width: 91.4666666667%;
+  margin: 0 auto 4rem;
+}
+
+@media (min-width: 90rem) {
+  .homepage-grid {
+    display: grid;
+    grid-template-columns: 66.3636363636% 31.8181818182%;
+    gap: 2.72727272727%;
+    width: 77.0833333333%;
+    margin: 0 auto 4.5rem;
+  }
+}
