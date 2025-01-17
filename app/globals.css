@@ -1,5 +1,7 @@
 @import url("./../components/nav/styles.css"); /* NAV STYLES */
+@import url("./../components/layout/styles.css"); /* HOMEPAGE - LAYOUT STYLES */
 @import url("./../components/main_article/styles.css"); /* HOMEPAGE - MAIN ARTICLE STYLES */
+@import url("./../components/new_articles/styles.css"); /* HOMEPAGE - NEW ARTICLES STYLES */
 
 * {
   box-sizing: border-box;
