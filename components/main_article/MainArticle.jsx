@@ -12,16 +12,18 @@ const MainArticle = () => {
         priority={true}
       />
 
-      <div class="main-article__text">
+      <div className="main-article__text">
         <h1>The Bright Future of Web 3.0?</h1>
 
-        <p>
-          We dive into the next evolution of the web that claims to put the
-          power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise?
-        </p>
+        <div>
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
 
-        <button className="btn__read-more">Read More</button>
+          <button className="btn__read-more">Read More</button>
+        </div>
       </div>
     </article>
   );
